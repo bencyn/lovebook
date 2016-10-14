@@ -1,0 +1,548 @@
+
+
+body {
+
+	padding: 0;
+	background: #787878;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #616161;
+
+	
+
+}
+
+
+h1, h2, h3 {
+	margin-top: 0;
+	color: #8C0209;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+
+
+h2 {
+	font-size: 1.6em;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+
+h3 {
+	font-size: 1em;
+}
+h4{
+	margin:4;
+	color: #8C0209;
+	font-size: 1.2em;
+	text-shadow: 5px 5px 5px black;
+}
+
+ul {
+}
+
+a {
+	text-decoration: none;
+	color: #8C0209;
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+div{
+transition: width 2s;
+-moz-transition: width 2s; /* Firefox 4 */
+-webkit-transition: width 2s; /* Safari and Chrome */
+}
+#header {
+
+	background:url(../images/img01.jpg.jpg) #FFFFFF repeat-x left top;
+}
+
+
+/* Header */
+
+#logo {
+	margin:0 auto;
+	height: auto;
+	/*width:auto;*/
+	/*float:left;*/
+	margin-top:5px;
+	margin-bottom:10px;
+	padding: 5 10px 0 10px;
+	border-radius: 10px;
+	background: url(../images/images_045.jpg) repeat left top ;
+}
+
+#logo h1, #logo p {
+	text-align:center;
+	
+	margin: 0;
+	color: #8C0209;
+	color: #ffffff;
+}
+
+#logo span {
+	color: #000000;
+}
+
+#logo h1 {
+
+	padding: 25px 0 0 0;
+	letter-spacing: -1px;
+	text-transform: upper;
+	font-weight: normal;
+	font-size: 4em;
+}
+
+#logo p {
+	float:left;
+	text-transform: uppercase;
+	padding: 0px 0 0 3px;
+	font:bold;
+	font-size: 10px;
+	color: #110E0F;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+
+#logo a {
+	border: none;
+	text-decoration: none;
+	color: #8C0209;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: rgba(62, 4, 4, 0) !important;
+}
+ #menu-wrapper{
+ 	/*float:left;*/
+ 	margin: 0 auto;
+	padding: 10;
+	/*width:auto;*/
+	height: 48px;
+border-radius:30px;
+	-moz-border-radius:30px; /* Firefox 3.6 and earlier */
+ }
+/* Menu */
+#menu {
+	/*box-shadow: 10px 10px 5px #888888;*/
+	color: #FFFF99; 
+
+	margin: 0 auto;
+	padding: 0;
+	height: 48px;
+	/*background: url(../images/thumbs_valentines-day-presents-header.jpg) repeat-X  !important;*/
+	border-left:5px solid;
+	border-right:5px solid;
+	border-radius:30px;
+	-moz-border-radius:30px; /* Firefox 3.6 and earlier */
+	
+
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 28px;
+	margin: 0;
+	padding: 12px 30px 0 30px;
+	text-transform: capitalize;
+	/*background: url(../images/img03.jpg) no-repeat top;*/
+	font-family: Times New Roman;
+	font-size: 20px;
+	
+	color: blue;
+	font-weight:bold;
+	text-shadow: 5px 5px 5px #FF0000;
+	
+}
+/*#menu a.sign{
+	color:green ;
+}
+#menu a.sign:hover{
+color:black;
+}
+#menu a:hover {
+	color: white;
+	
+}
+
+#menu .current_page_item a {
+	color: #FF00FF;
+}
+#wrapper {
+}*/
+
+
+/* Page */
+.color{
+color:purple;
+}
+#signin{
+	width: 450px;
+	margin: 0 auto;
+	padding: 20px 5px;
+	background: #FFFFFF;
+}
+#signin h1{
+	margin:0;
+	color:#C80000;
+	text-shadow: 5px 5px 5px black;
+}
+#signin h3{
+color:black;
+font-weight:bold ;
+}
+#postcontent{
+width: 990px;
+	margin: 0 auto;
+	padding: 20px 5px;
+	background: #FFFFFF;
+}
+#page {
+	
+	margin: 0 auto;
+	padding: 20px 5px;
+	background: #FFFFFF;
+}
+
+#page-bg {
+	background: #FFFFFF url(.../images/img01.jpg) repeat ;
+}
+/* Latest Post */
+
+#latest-post {
+	padding: 20px;
+	border: 1px solid #E7E7E7;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	margin:0 auto;
+	width:600px;
+	padding-left:20px;
+}
+.top1{
+	text-align:center;
+}
+
+.audio{
+	padding-right:0px;
+}
+
+.post {
+	padding-bottom: 15px;
+	line-height: 200%;
+}
+
+.post h1 h2 {
+	font-weight:normal;
+}
+
+.title {
+	margin: 0;
+	padding: 20px 0 4px 20px;
+	font-weight: normal;
+}
+
+.title a {
+	border-bottom: none;
+	color: #8C0209;
+}
+
+.title a:hover {
+	border-bottom: 1px dotted #000000;
+}
+
+.byline {
+	border-bottom: 1px #BBBBBB dashed;
+	margin: -10px 20px 20px 20px;
+}
+
+.tag {
+	padding: 0 15px;
+}
+
+.entry {
+	padding: 0 20px;
+}
+;
+.links {
+	padding: 4px 0px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.links a {
+	border: none;
+}
+
+.links a:hover {
+}
+
+#sidebar1 {
+	float: left;
+}
+
+#sidebar2 {
+	float: right;
+}
+/*sidebar s{
+	float:right;
+	width:320px;
+	padding:250px;
+	}*/
+
+.sidebar {
+	float: left;
+	width: 320px;
+	padding:10px;
+	font-size: 12px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+	color:black;
+	font:bold;
+	text-shadow:5px 5px 5px #FFCC33;
+}
+
+.sidebar li ul {
+	
+}
+
+.sidebar li li {
+	margin: 0 20px 0 15px;
+	padding: 8px 0px;
+	border-bottom: 1px #BBBBBB;
+	
+}
+
+div.sidebar:hover{
+	
+	width:300px;
+}
+
+.sidebar li h2 {
+	text-align:center;
+	height: auto;
+	margin: 0 0 0 0;
+	padding: 5px 10px 10px 10px;
+	background:  url(../images/thumbs_valentine-love-hearts-header.jpg);
+	letter-spacing: -1px;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font:bold;
+	color: #FFFF99;
+	border:5px solid;
+	border-radius:30px;
+	-moz-border-radius:30px; /* Firefox 3.6 and earlier */
+}
+
+.sidebar a {
+}
+.pagination {
+	font-size:1.5em;
+	color:blue;
+	font:bold;
+}
+
+#searchform {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#searchform br {
+	display: none;
+}
+
+#searchform h2 {
+}
+
+#s {
+	margin: 10px 0px 0 15px;
+	padding: 2px 2px;
+	width: 180px;
+	height: 18px;
+	border: 1px solid #CA8186;
+	background: #FFFFFF;
+	font-size: 10px;
+	color: #000000;
+}
+
+#x {
+	margin: 0;
+	padding: 2px 5px;
+	height: 25px;
+	background: #CA8186;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+/* Calendar */
+
+#calendar_wrap {
+	padding: 0 15px;
+	text-align: center;
+}
+
+#calendar_wrap table {
+	width: 100%;
+}
+
+#calendar_wrap th {
+}
+
+#calendar_wrap td {
+}
+
+#calendar_wrap tfoot td {
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev {
+	text-align: left;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev a {
+	border: none;
+}
+
+#calendar_wrap tfoot td#next {
+	text-align: right;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#next a {
+	border: none;
+}
+/* Calendar */
+
+#calendar_wrap {
+	padding: 0 15px;
+	text-align: center;
+}
+
+#calendar_wrap table {
+	width: 100%;
+}
+
+#calendar_wrap th {
+}
+
+#calendar_wrap td {
+}
+
+#calendar_wrap tfoot td {
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev {
+	text-align: left;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev a {
+	border: none;
+}
+
+#calendar_wrap tfoot td#next {
+	text-align: right;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#next a {
+	border: none;
+}
+
+/* Footer */
+
+#footer {
+
+	height: 70px;
+	padding: 0 20px;
+	background: url(../images/img04.jpg) repeat-x ;
+}
+
+#footer p {
+	margin: 0;
+	padding: 25px 0 0 0;
+	text-align: center;
+	font-size: smaller;
+}
+
+#footer a {
+}
+
+#footer .link {
+	float: right;
+}
+
+#footer .copyright {
+	float: left;
+}
+.images{
+
+	margin:0 auto;
+	width:330px;
+	float: left;
+	border:1px solid yellow;
+	padding:5px;
+	margin-right:20px;
+	border-radius:5px;
+}
+.images img{
+	padding-left: 0px;
+	padding-right:10px;
+	width:150px;
+	height:150px;
+	border-radius:10px;
+	box-shadow:;
+
+	}
+#music{
+	float:left;
+	width:300px;
+	
+
+}	
+
